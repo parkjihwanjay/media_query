@@ -1,0 +1,80 @@
+body{
+    font-size: 12px;
+}
+
+.air-description{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.big1{
+    width: 100%;
+    max-width: 1024px;
+    height: 400px;
+    background-image: url("https://img.theculturetrip.com/1024x574/smart/wp-content/uploads/2017/10/field-in-ukraine.jpg");
+}
+
+.find_1{
+    font-size: 15px;
+    color: white;
+}
+
+@media(min-width:768px){
+
+    .big1{
+        height: 350px;
+    }
+    .air-description{
+        font-size:30px;
+    }
+
+    .find_1{
+        font-size: 18px;
+    }
+
+    .around_hosting{
+        display: flex;
+    }
+}
+
+
+
+.air-logo{
+    width: 32px;
+    height: 32px;
+}
+
+.air-logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.look_around{
+    background-color: white;
+}
+
+.big2{
+    max-width: 1024px;
+}
+
+.every_location::-webkit-input-placeholder {
+    color : black;
+    font-weight: bold;
+}
+
+.how_many{
+    width:50%;
+}
+
+.search_btn{
+    width:100%;
+    font-weight: bold;
+}
+
+.stay{
+    width:100%;
+}
